@@ -7,15 +7,20 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity {
-    TextView text;
+    TextView name_sailor;
+    TextView don_sailor;
+    TextView frase_sailor;
     ImageView imageS;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+
         //colocando los id del textview e imageview en las variables
-        text = findViewById(R.id.textId);
+        name_sailor = findViewById(R.id.name_sailor);
+        don_sailor = findViewById(R.id.don_sailor);
+        frase_sailor = findViewById(R.id.frase_sailor);
         imageS = findViewById(R.id.imgId);
 
         Intent callingIntent = getIntent();
@@ -35,9 +40,15 @@ public class Main2Activity extends AppCompatActivity {
         //creando objeto
         SailorPlanet sailor = (SailorPlanet)intent.getSerializableExtra("SAILOR");
 
-        //condicion para que aparezca el string e imagen
-        if (text != null) {
-            text.setText(sailor.getname());
+        //condicion para que aparezca el strings e imagen
+        if (name_sailor != null) {
+            name_sailor.setText(sailor.getname());
+        }
+        if (don_sailor != null) {
+            don_sailor.setText(sailor.getDon());
+        }
+        if (frase_sailor != null) {
+            frase_sailor.setText(sailor.getFrase());
         }
         if (imageS != null){
             imageS.setImageResource(sailor.getimg());

@@ -2,14 +2,41 @@
     <string name="app_name">Sailor Scout</string>
 
     <string-array name="Planets">
-        <item>Sailor Moon\nPrincesa del Reino Lunar</item>
-        <item>Sailor Mercury\nSailor Scout de la Inteligencia</item>
-        <item>Sailor Venus\nSailor Scout del Amor</item>
-        <item>Chibi Moon\nHija de Sailor Moon</item>
-        <item>Sailor Mars\nSailor Scout de la Guerra</item>
-        <item>Sailor Jupiter\nSailor Scout de la Naturaleza</item>
-        <item>Sailor Saturn\nSailor Scout de la Destrucción</item>
-        <item>Sailor Uranus\nSailor Scout del Viento</item>
-        <item>Sailor Neptune\nSailor Scout del Mar</item>
+        <item>Sailor Moon</item>
+        <item>Sailor Mercury</item>
+        <item>Sailor Venus</item>
+        <item>Chibi Moon</item>
+        <item>Sailor Mars</item>
+        <item>Sailor Jupiter</item>
+        <item>Sailor Saturn</item>
+        <item>Sailor Uranus</item>
+        <item>Sailor Neptune</item>
+        <item>Sailor Pluto</item>
+    </string-array>
+
+    <string-array name="Don">
+        <item>Princesa del Reino Lunar</item>
+        <item>Sailor Scout del Conocimmiento</item>
+        <item>Sailor Scout del Amor</item>
+        <item>Hija de Sailor Moon</item>
+        <item>Sailor Scout de la Pasión</item>
+        <item>Sailor Scout de la Fuerza</item>
+        <item>Sailor Scout del Renacimiento y Destrucción</item>
+        <item>Sailor Scout del Aire</item>
+        <item>Sailor Scout del Agua</item>
+        <item>Sailor Scout del Tiempo</item>
+    </string-array>
+
+    <string-array name="Frase">
+        <item>Frase:\n\n\"Soy una Sailor Scout que lucha por el amor y la justicia. ¡Soy Sailor Moon, y te castigaré en el nombre de la Luna!\"</item>
+        <item>Frase:\n\n\"Soy una Sailor Scout que lucha por el amor y el conocimiento. ¡Soy Sailor Mercury, y te castigaré en el nombre de Mercurio!\"</item>
+        <item>Frase:\n\n\"Soy una Sailor Scout que lucha por el amor y la belleza. ¡Soy Sailor Venus, y te castigaré en el nombre de Venus!\"</item>
+        <item>Frase:\n\n\"Soy una aprendiz de Sailor Scout que lucha por el amor y la justicia. Soy Sailor Chibi Moon, y te castigaré en el nombre ¡de la Luna del futuro!\"</item>
+        <item>Frase:\n\n\"Soy una Sailor Scouts que lucha por el amor y la pasión. ¡Soy Sailor Mars, y te castigaré en el nombre de Marte!\"</item>
+        <item>Frase:\n\n\"Soy una Sailor Scouts que lucha por el amor y la fuerza. ¡Soy Sailor Jupiter, y te castigaré en el nombre de Jupiter!\"</item>
+        <item>Frase:\n\n\"Mi Planeta protector es Saturno, el planeta del silencio. ¡Soy la Sailor del renacimiento y la destrucción, soy Sailor Saturn!\"</item>
+        <item>Frase:\n\n\"Mi Planeta protector es Urano, el Planeta del viento. ¡Soy la Sailor del aire, soy Sailor Uranus!\"</item>
+        <item>Frase:\n\n\"Mi planeta protector es Neptuno, el planeta de las profundidades marinas, soy la Sailor de agua. Soy Sailor Neptune.\"</item>
+        <item>Frase:\n\n\"Mi Planeta protectora es Plutón. El planeta del tiempo. ¡Soy la Sailor del cambio, Soy Sailor Pluto!\"</item>
     </string-array>
 </resources>
